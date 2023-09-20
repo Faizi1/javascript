@@ -13,7 +13,7 @@ var name1 = "      fssaiz      ";
 // remove empty spaces
 console.log('remove space', name1.trim())
 
-// uppercase
+// uppercaseprint(aboutMe)
 console.log('uppercase letter: ', fisrtname.toUpperCase())
 
 // lowercase
@@ -45,3 +45,10 @@ let string2 = "sagheer";
 
 let full_string = string1 + " " + string2;
 console.log(full_string)
+
+// template string
+let age1 = 22;
+let firstName = "faiz"
+
+let aboutMe = `my name is ${firstName} and my age is ${age1}`
+console.log(aboutMe);
